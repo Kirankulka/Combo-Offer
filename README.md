@@ -28,6 +28,8 @@ ITEM12n4: Item1/2 and Item4 purchased (without Item3)
 ITEM12n3n4: Item1/2, Item3 and Item4 purchased
 Simulate discounting one item in the combo by 1 to 20 units
 Calculate new bill, profit delta and total profit for each discount unit
+
+
 **Store results in dictionaries and convert to dataframes:**
 final_results_df1: Only Item3 discounts
 final_results_df2: Only Item4 discounts
@@ -36,10 +38,13 @@ final_results_df4: Item1/2 combo with Item4 discounts
 final_results_df5: Item1/2 combo with Item3 & Item4 discounts
 For each dataframe, account for profit loss when discounting the 'primary' item in combo
 Build regression models to estimate max profit discount level
+
 **Key Insights**
 Discounting only Item3 yields highest incremental profit. But it cannibalizes sales of Item1/2 combo.
 Discounting Item1/2 combo with Item3 has maximum profit at 20% additional discount.
 Discounting Item1/2 combo with Item4 has maximum profit at 14% additional discount.
+
+
 **Recommendations**
 Offer a discounted combo of Item1/2 with Item3 with an additional 20% off.
 Also offer a discounted combo of Item1/2 with Item4 with an additional 14% off.
